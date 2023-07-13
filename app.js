@@ -12,7 +12,7 @@ const bodyParser = require('body-parser')
 
 // Constants
 const port = process.env.PORT || 5300
-const FRONTEND_URL = process.env.FRONTEND_URL || 'http://localhost:3000'
+const FRONTEND_URL = process.env.FRONTEND_URL || 'http://147.124.214.116:3000'
 
 // Creating server
 const app = express()
